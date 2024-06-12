@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0.5">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <title>Projectors </title>
+        <link rel="stylesheet" href="./css/projector.css">
+        <script src="./JS/projector.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo"><img src=".\image/Picture1.png" id="log" alt=""></a></div>
+        
+            <input type="checkbox" id="toggle">
+            <label for="toggle"> <svg id="tog" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg></label>
+        
+            <nav class="navigation">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#">Services</a>
+                  <ul>
+                    <li><a href="cctv.html"><svg width="30" height="30" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path  fill="#fff" d="M20.916 9.564a.998.998 0 0 0-.513-1.316L7.328 2.492c-.995-.438-2.22.051-2.645 1.042l-2.21 5.154a2.001 2.001 0 0 0 1.052 2.624L9.563 13.9L8.323 17H4v-3H2v8h2v-3h4.323c.823 0 1.552-.494 1.856-1.258l1.222-3.054l5.205 2.23a1 1 0 0 0 1.31-.517l.312-.71l1.701.68l2-5l-1.536-.613zm-4.434 5.126L4.313 9.475l2.208-5.152l12.162 5.354z"/>
+                  </svg> Home Automation & Security</a></li>
+                  <li><a href="home_theater.html"><svg width="30" height="30" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="#fff">
+                        <path d="M14 7.5a1.5 1.5 0 1 1-3 0a1.5 1.5 0 0 1 3 0M2.5 6a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm0 2a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1z"/>
+                        <path d="M0 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1H5a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1z"/>
+                    </g>
+                </svg> &nbsp;Home Theatre</a> </li>
+                <li><a href="pa_sound_system.html"><svg width="30" height="30" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="#fff" d="M18 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2m0 18H6V4h12z"/>
+                  <path fill="#fff" d="M12 19a4 4 0 1 0-4-4a4 4 0 0 0 4 4m0-6a2 2 0 1 1-2 2a2 2 0 0 1 2-2"/>
+                  <circle cx="12.01" cy="7" r="2" fill="#fff"/>
+              </svg> &nbsp;PA Sound System</a></li>
+              <li><a href="#"><svg width="30" height="30" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
+                <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="M3 2.5h8a1 1 0 0 1 1 1V10h0H2h0V3.5a1 1 0 0 1 1-1ZM.5 10h13M7 2.5v-2M5.5 10L3 13.5M8.5 10l2.5 3.5"/>
+            </svg> &nbsp; Smart Classroom  </a></li>
+            <li><a href="#"><img src="./image/icons8-meeting-room-50 (2).png" class="con" >&nbsp; AV Conference Room Solution</a></li>
+                    </ul>
+              
+                </li>
+                <li><a href="#">Gallery</a>
+        
+                </li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </nav>
+        </header>
+        <div class="product-section" id="product-section" >
+            <div class="main-image">
+                <img src="" id="main-image" alt="Main Product Image">
+            </div>
+            <div class="right-side">
+                <div class="sub-images" id="sub-images">
+                    <img src="" id="img1" alt="Sub Image 1" onclick="changeImg('img1')">
+                    <img src="" id="img2" alt="Sub Image 2" onclick="changeImg('img2')">
+                    <img src="" id="img3" alt="Sub Image 3" onclick="changeImg('img3')">
+                    <img src="" id="img4" alt="Sub Image 4" onclick="changeImg('img4')">
+                    <img src="" id="img5" alt="Sub Image 5" onclick="changeImg('img5')">
+                </div>
+                <div class="description">
+                    <h2 id="name"></h2>
+                    <h3 id="price"></h3>
+                    <p id="detail"></p>
+                </div>
+            </div>
+            <button class="close-button" onclick="closeSection()">Close</button>
+        </div>
+
+
+        <div class="pro_container">
+            <div class="card">
+                <div class="card-image">
+                    <img src="./image/Home_theatre/projector/epson_ tw_7100.1.png" alt="EPSON TW 71000">
+                </div>
+                <div class="card-content">
+                    <div class="card-title">EPSON TW 7100</div>
+                        <div class="card-price">₹ 1,52,999</div>
+                        <a href="#" class="more-info-btn" onclick="callProjector1(event)" >More Info</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./image/Home_theatre/projector/epson_e01.1.png" alt="EPSON E 01">
+                </div>
+                <div class="card-content">
+                    <div class="card-title">EPSON EB 01</div>
+                        
+                            <div class="card-price">₹ 10,00,000</div>
+                                <a href="#" class="more-info-btn" onclick="callProjector2(event)">More Info</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./image/Home_theatre/projector/epson_fh06.1.png" alt="EPSON FH 06">
+                </div>
+                <div class="card-content">
+                    <div class="card-title">EPSON FH 06</div>
+                        
+                            <div class="card-price">₹ 77,804</div>
+                                <a href="#" class="more-info-btn" onclick="callProjector3(event)">More Info</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./image/Home_theatre/projector/epson_tw_6250.1.png" alt="EPSON TW 6250">
+                </div>
+                <div class="card-content">
+                    <div class="card-title">EPSON TW 6250</div>
+                        
+                            <div class="card-price">₹ 1,40,299</div>
+                                <a href="#" class="more-info-btn" onclick="callProjector4(event)">More Info</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./image/Home_theatre/projector/epson_tw_750.1.png" alt="EPSON TW 750">
+                </div>
+                <div class="card-content">
+                    <div class="card-title">EPSON TW 750</div>
+                        
+                            <div class="card-price">₹ 80,099</div>
+                                <a href="#" class="more-info-btn" onclick="callProjector5(event)">More Info</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./image/Home_theatre/projector/epson_tw_9400.1.png" alt="EPSON TW 9400">
+                </div>
+                <div class="card-content">
+                    <div class="card-title">EPSON TW 9400</div>
+                        
+                            <div class="card-price">₹ 2,45,799</div>
+                                <a href="#" class="more-info-btn" onclick="callProjector6(event)">More Info</a>
+                </div>
+            </div> 
+        </div>
+        <footer class="footer-distributed">
+            <div class="footer-left">
+                <h4>Sound Vision<span>Technologies</span></h4>
+                <p class="footer-links">
+                    <a href="index.html">Home</a>
+                    |
+                    <a href="about.html">About Us</a>
+                    |
+                    <a href="#">Contact</a>
+                    |  
+                    <a href="#">Gallery</a>
+                </p>
+  
+                <p class="footer-company-name">Copyright © 2021 <strong>Sound Vision Technologies</strong> All rights reserved</p>
+            </div>
+  
+            <div class="footer-center">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>Ahmedabad</span>Naroda</p>
+                </div>
+                <div>
+                <i class="fa fa-phone" ></i>
+                    <p><a href="tel:+918238009399" class="cll">+91 82380 09399</a></p><br>
+                </div>
+                <div>
+                    <i class="fa fa-envelope" id="mail"></i>
+                    <p id="email"><a href="mailto:soundvisiontechnologies@gmail.com">soundvisiontechnologies@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>About the company</span>
+                    <strong>Sound Vision technologies</strong> Established in 2021, is a leading AV Industries service provider, known for innovative solutions and client satisfaction. With a commitment to excellence, the company plans to expand services and embrace emerging technologies, maintaining its trusted position in the market.
+                </p>
+            </div>
+        </footer>
+    </body>      
+</html>

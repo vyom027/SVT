@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Section</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-width: 1200px;
+    width: 100%;
+}
+
+.product-image {
+    flex: 1.5;
+    max-width: 500px;
+    margin-right: 30px;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+
+.thumbnails {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.thumbnails img {
+    width: 28%;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    transition: border 0.3s;
+}
+
+.thumbnails img:hover {
+    border-color: #000;
+}
+
+.product-details {
+    margin-left: 80px;
+    flex: 1;
+    max-width: 500px;
+}
+
+.product-details h1 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+.description {
+    font-size: 1.2em;
+    color: #333;
+    margin: 20px 0;
+}
+
+.features {
+    padding: 0;
+}
+
+.features li {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    margin-left: 2o0px;
+}
+
+.actions {
+    margin-top: 30px;
+}
+
+.back-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .product-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-image {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .product-details {
+        margin-left: 18px;
+        max-width: 100%;
+        text-align: start;
+        max-height: 300px;
+        overflow: scroll;
+    }
+
+    .thumbnails {       
+        overflow-x: scroll;
+        width: 100%;
+    }
+    .thumbnails img {
+        width: 40%;
+        margin: 0 5px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="product-container">
+        <div class="product-image">
+            <img src="./image/PA_sound_system/mixer/mini8_1.png"     alt="Nike Shoes">
+            <div class="thumbnails">
+                <img src="./image/PA_sound_system/mixer/mini8_1.png" alt="Red Shoe">
+                <img src="./image/PA_sound_system/mixer/mini8_2.png" alt="Blue Shoe">
+                <img src="./image/PA_sound_system/mixer/mini8_3.png" alt="Orange Shoe">
+                <img src="./image/PA_sound_system/mixer/mini8_4.png" alt="Grey Shoe">
+            </div>
+        </div>
+        <div class="product-details">
+            <h1>Nike Shoes</h1>
+            <p class="description">
+                <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo exercitationem soluta assumenda nobis laboriosam labore accusamus dolor autem similique culpa placeat, nesciunt, ex odio est! -->
+            </p>
+            <ul class="features">
+                <li> Gain control with 2-band EQ per channel.</li>
+				<li> Built-in echo/delay processor with unique E-delay.</li>
+			    <li> <p>Clip LED indication per channel.</p>
+				</li>
+				<li> <p>Signal &amp; clip LED indication for master level.</p>
+				</li>
+				<li> <p>1/4” TS unbalanced L/R main output.</p>
+				</li>
+				<li> <p>USB MP3 media player onboard with transport control and IR remote control.</p>
+				</li>
+				<li> <p>Built-in Bluetooth wireless streaming from smartphones, tablets, and laptops.</p>
+				</li>
+            </ul>
+        </div>
+        <div class="actions">
+            <button class="back-button">Back</button>
+        </div>
+    </div>
+</body>
+</html>
