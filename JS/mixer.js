@@ -2,6 +2,7 @@ function closeSection() {
     document.getElementById('product-container').style.display = 'none';
     document.documentElement.classList.remove("no-scroll");
     document.getElementById('img2').style.display = 'flex';
+    document.getElementById('img2').style.width = '100px';
     document.getElementById('img3').style.display = 'flex';
     document.getElementById('img4').style.display = 'flex';
     restoreScrollPosition(); // Restore the scroll position
@@ -193,4 +194,89 @@ function mixer13(event){
     document.getElementById('img3').style.display = 'none';
     document.getElementById('img4').style.display = 'none';
     document.getElementById('features').innerHTML = '<li>Professional mixer with user-friendly construction &amp; aesthetically designed side panels.</li><li>12 MIC and 10 LINE Balanced Mono inputs with enhanced headroom. 2 STEREO Balanced inputs.</li><li>Built-in MP3 player with 11 preset EQ settings.</li><li>Digital multi EFFECTS processor with 24 built-in effects.</li><li>LCD display for viewing the effects/USB settings.</li><li>All MIC inputs are through 3 pin F/XLR connectors.</li><li>All LINE &amp; STEREO inputs are through 6.3mm (1/4”) stereo phone jack sockets.</li><li>All MIC inputs are available with 48V phantom supply which can be switched ON/OFF.</li><li>Each input channel has a GAIN control, 4 band active EQ controls, AUX1, AUX2, AUX3/EFX, AUX4/FX and PAN control.</li><li>The STEREO channel has a GAIN control, 3 band active EQ control, AUX1, AUX2, AUX3/EFX, AUX4/FX and PAN control.</li><li>Pre/Post selector switch for AUX1 and AUX2 in each channel.</li><li>Channel MUTE switch provided on each individual channel.</li><li>Peak LED for signal clipping indication. Signal LED for input signal indication.</li><li>Balanced Left &amp; Right MAIN Mix outputs through M/XLR connectors as well as 6.3mm (1/4”) stereo phone jack sockets.</li><li>Stereo Tape Playback Input through L&amp;R RCA sockets.</li><li>Stereo Tape Output through L&amp;R RCA sockets.</li><li>Two group outputs through 6.3mm (1/4”) phone jack sockets and individual group faders.</li><li>Monitor outputs through 6.3mm (1/4”) phone jack sockets and individual control.</li><li>Easy and accurate monitoring of Left &amp; Right output levels through individual 12 segment LED array.</li><li>L&amp;R AUX RETURN inputs with level control. PFL switch on each channel.</li><li>Headphone output with Level Control for output monitoring.</li><li>Operates on 240V 50Hz AC mains.</li>';
+}
+
+function mic1(event){
+    event.preventDefault();
+    document.documentElement.classList.add("no-scroll");
+    document.getElementById('product-container').style.display = 'flex';
+    document.getElementById('product-name').innerText = 'AWM 14';
+    document.getElementById('price').innerText = '₹ 7,999';
+    document.getElementById('main-image').src = '../image/PA_sound_system/mic/a_awm14_1.png';
+    document.getElementById('img1').src = '../image/PA_sound_system/mic/a_awm14_1.png';
+    document.getElementById('img2').src = '../image/PA_sound_system/mic/a_awm14_2.png';
+    document.getElementById('img3').src = '../image/PA_sound_system/mic/a_awm14_3.png';
+    document.getElementById('img4').src = '../image/PA_sound_system/mic/a_awm14_4.png';
+    document.getElementById('features').innerHTML = '<li>[SELECTABLE UHF FREQUENCIES]: - UHF karaoke microphone operation minimizes interference and disconnectivity. Dual channel handheld wireless system with 15 adjustable frequencies each channel for the musicians and presenters to eliminate possible inferences and offer accurate audio. The dual-channel receiver is designed with ease of use in mind and is well suited for DJs, Weddings, Concerts and classroom.  </li>  <li>[2-Way Communication System]: - Metal Dynamic microphone with unique dipole-antenna design ensures reliable transmission, capably provide a line-of-sight long range of up to 60m/200ft. (Note: ensure the antennas are upright.) Best built quality vocal microphone set with 1- 1/4 Mix output and 2- XLR outputs delivers professional quality sound.  </li>  <li>[DUAL MIC SETUP]: - You get two microphones making it ideal for duet. Individual volume controls for each mic channel allows precise vocal mixing. This streamlined system is well suited for live performances, outdoor events, wedding, halls conference which offers quality sound, simple setup and dependable performance right out of the box. Compatible with mixers, audio interfaces, PA systems, party boxes.  </li>  <li>[HIGH PERFORMANCE]: -Wireless handheld microphone with robust UHF performance lets you step up to a higher class of audio. Bright LCD display provides for flawless operation.  </li>  <li>[MIC COVER &amp; ANTI-ROLL RING]: - The mic cover included is thick and soft enough to reduce breath and wind noise. It effectively reduces explosions, wind disturbances, saliva sprays, loud sound during recording. The anti-roll ring is protecting your microphone from shocks and also preventing your microphone from rolling off from a slippery surface.  </li>  <li>[WHAT YOU GET]: - 2 x UHF Wireless Microphones, 1 x Powered Receiver, 2 x Mic covers, 2 x Anti-roll rings, 1 x power adapter, 1 x Manual, (2 x AA battery not included).  </li>';
+}
+
+function mic2(event){
+    event.preventDefault();
+    document.documentElement.classList.add("no-scroll");
+    document.getElementById('product-container').style.display = 'flex';
+    document.getElementById('product-name').innerText = 'AWM 495 V2';
+    document.getElementById('price').innerText = '₹ 5,299';
+    document.getElementById('main-image').src = '../image/PA_sound_system/mic/a_awm495v2_1.png';
+    document.getElementById('img1').src = '../image/PA_sound_system/mic/a_awm495v2_1.png';
+    document.getElementById('img2').src = '../image/PA_sound_system/mic/a_awm495v2_2.png';
+    document.getElementById('img3').src = '../image/PA_sound_system/mic/a_awm495v2_3.png';
+    document.getElementById('img2').style.width = '65px';
+    document.getElementById('img4').style.display = 'none';
+    document.getElementById('features').innerHTML = '<li>Sleek in terms of design</li><li>Scores high on the aspect of functionality</li><li>Designed as per the latest industry standards</li>' ;
+}
+
+function mic3(event){
+    event.preventDefault();
+    document.documentElement.classList.add("no-scroll");
+    document.getElementById('product-container').style.display = 'flex';
+    document.getElementById('product-name').innerText = 'BR 48';
+    document.getElementById('price').innerText = '₹ 9,499';
+    document.getElementById('main-image').src = '../image/PA_sound_system/mic/s_br48_1.png';
+    document.getElementById('img1').src = '../image/PA_sound_system/mic/s_br48_1.png';
+    document.getElementById('img2').src = '../image/PA_sound_system/mic/s_br48_2.png';
+    document.getElementById('img3').src = '../image/PA_sound_system/mic/s_br48_3.png';
+    document.getElementById('img4').style.display = 'none';
+    document.getElementById('features').innerHTML = '<li>UHF Band frequency by PLL – Synthesis Technology</li><li> 8 Selectable UHF Channels</li><li> Two Microphones can be used at the same time</li><li> Double noise squelching circuit to ensure excellent sound quality</li><li> LED for Channel information Display</li><li> Highly efficient & Low Energy consumption design</li><li> The BR48/BM28/BL28 consists of one BM 28 handheld & one BL 28 Lapel microphones</li>' ;
+}
+
+function mic4(event){
+    event.preventDefault();
+    document.documentElement.classList.add("no-scroll");
+    document.getElementById('product-container').style.display = 'flex';
+    document.getElementById('product-name').innerText = 'EM 31';
+    document.getElementById('price').innerText = '₹ 8,999';
+    document.getElementById('main-image').src = '../image/PA_sound_system/mic/s_em31_1.png';
+    document.getElementById('img1').src = '../image/PA_sound_system/mic/s_em31_1.png';
+    document.getElementById('img2').src = '../image/PA_sound_system/mic/s_em31_2.png';
+    document.getElementById('img3').src = '../image/PA_sound_system/mic/s_em31_3.png';
+    document.getElementById('img4').style.display = 'none';
+    document.getElementById('features').innerHTML = '<li>VHF Band frequency Quartz Lock Control.</li><li>Dual Channel Receiver.</li><li>LED Indicator (Power, RF) &amp; Telescopic antenna.</li><li>Special Circuit design to suppress microphone switch noise.</li><li>The ER 31/ EM 31 / EL 31 consists of one EM 31 handheld &amp; one EL 31 Lapel microphones.</li>' ;
+}
+
+function mic5(event){
+    event.preventDefault();
+    document.documentElement.classList.add("no-scroll");
+    document.getElementById('product-container').style.display = 'flex';
+    document.getElementById('product-name').innerText = 'TR 44';
+    document.getElementById('price').innerText = '₹ 8,499';
+    document.getElementById('main-image').src = '../image/PA_sound_system/mic/s_tr44_1.png';
+    document.getElementById('img1').src = '../image/PA_sound_system/mic/s_tr44_1.png';
+    document.getElementById('img2').src = '../image/PA_sound_system/mic/s_tr44_2.png';
+    document.getElementById('img3').src = '../image/PA_sound_system/mic/s_tr44_3.png';
+    document.getElementById('img4').style.display = 'none';
+    document.getElementById('features').innerHTML = '<li>High Quality Dual Handheld UHF Wireless Microphone System.</li><li>Up to 200 Selectable Frequencies.</li><li>Easy Setup via Infrared (IR).</li><li>Two microphones can be used at the same time.</li><li>Anti Mobile &amp; RF Interference Technology.</li><li>Clear Backlit LCD Colour Display for Frequency, channel, RF, AF &amp; Battery Level Indication.</li><li>Tactile Switches for Frequency Adjustment, Sync, Set &amp; Volume Control.</li><li>Frequency Lock Option to Minimise Tampering During Operation.</li><li>Balanced XLR (Individual Channels) &amp; Unbalanced ¼" Jack (Mix) Outputs.</li><li>Premium, Robust &amp; Attractive Metal Housing.</li>' ;
+}
+
+function mic6(event){
+    event.preventDefault();
+    document.documentElement.classList.add("no-scroll");
+    document.getElementById('product-container').style.display = 'flex';
+    document.getElementById('product-name').innerText = 'ER 31';
+    document.getElementById('price').innerText = '₹ 8,999';
+    document.getElementById('main-image').src = '../image/PA_sound_system/mic/s_er31_1.png';
+    document.getElementById('img1').src = '../image/PA_sound_system/mic/s_er31_1.png';
+    document.getElementById('img2').src = '../image/PA_sound_system/mic/s_er31_2.png';
+    document.getElementById('img3').src = '../image/PA_sound_system/mic/s_er31_3.png';
+    document.getElementById('img4').style.display = 'none';
+    document.getElementById('features').innerHTML = '<li>2 lapel microphones &amp; 1 receiver.</li><li>Dual Channel Receiver.</li><li>LED Indicator( Power, RF) &amp; Telescopic antenna.</li><li>Special Circuit design to suppress microphone switch noise.</li><li>Individual channel output as well as mix output.</li><li>VHF Band Frequency Quartz Lock Control</li>' ;
 }
