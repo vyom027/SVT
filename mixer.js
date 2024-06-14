@@ -2,6 +2,7 @@ function closeSection() {
     document.getElementById('product-container').style.display = 'none';
     document.documentElement.classList.remove("no-scroll");
     document.getElementById('img2').style.display = 'flex';
+    document.getElementById('img1').style.width = '100px';
     document.getElementById('img2').style.width = '100px';
     document.getElementById('img3').style.display = 'flex';
     document.getElementById('img4').style.display = 'flex';
@@ -279,4 +280,174 @@ function mic6(event){
     document.getElementById('img3').src = './image/PA_sound_system/mic/s_er31_3.png';
     document.getElementById('img4').style.display = 'none';
     document.getElementById('features').innerHTML = '<li>2 lapel microphones &amp; 1 receiver.</li><li>Dual Channel Receiver.</li><li>LED Indicator( Power, RF) &amp; Telescopic antenna.</li><li>Special Circuit design to suppress microphone switch noise.</li><li>Individual channel output as well as mix output.</li><li>VHF Band Frequency Quartz Lock Control</li>' ;
+}
+
+function speaker1(event){
+    event.preventDefault();
+    document.documentElement.classList.add("no-scroll");
+    document.getElementById('product-container').style.display = 'flex';
+    document.getElementById('product-name').innerText = 'Aria 12';
+    document.getElementById('price').innerText = '₹ 14,999';
+    document.getElementById('main-image').src = './image/PA_sound_system/speaker/s_aria12.png';
+    document.getElementById('img1').src = './image/PA_sound_system/speaker/s_aria12.png';
+    document.getElementById('img2').style.display = 'none';
+    document.getElementById('img3').style.display = 'none';
+    document.getElementById('img4').style.display = 'none';
+    document.getElementById('features').innerHTML = '<li>High quality Two -way  Passive Speakers in a plastic moulded cabinet.</li> <li>Heavy Duty Plastic Moulded Cabinets.</li> <li>Integral stand mounting socket. </li><li>Parallel input connectors allow linking of additional speakers</li>';
+}
+
+function speaker2(event){
+    event.preventDefault();
+    document.documentElement.classList.add("no-scroll");
+    document.getElementById('product-container').style.display = 'flex';
+    document.getElementById('product-name').innerText = 'Aria 15';
+    document.getElementById('price').innerText = '₹ 21,000';
+    document.getElementById('main-image').src = './image/PA_sound_system/speaker/s_aria15.png';
+    document.getElementById('img1').src = './image/PA_sound_system/speaker/s_aria15.png';
+    document.getElementById('img2').style.display = 'none';
+    document.getElementById('img3').style.display = 'none';
+    document.getElementById('img4').style.display = 'none';
+    document.getElementById('features').innerHTML = '<li>High quality Two -way  Passive Speakers in a plastic moulded cabinet.</li> <li>Heavy Duty Plastic Moulded Cabinets.</li> <li>Integral stand mounting socket. </li><li>Parallel input connectors allow linking of additional speakers</li>';
+}
+
+function speaker3(event){
+    event.preventDefault();
+    document.documentElement.classList.add("no-scroll");
+    document.getElementById('product-container').style.display = 'flex';
+    document.getElementById('product-name').innerText = 'Cilo 124';
+    document.getElementById('price').innerText = '₹ 26,000';
+    document.getElementById('main-image').src = './image/PA_sound_system/speaker/s_cilo124_1.png';
+    document.getElementById('img1').src = './image/PA_sound_system/speaker/s_cilo124_1.png';
+    document.getElementById('img2').src = './image/PA_sound_system/speaker/s_cilo124_2.png';
+    document.getElementById('img3').src = './image/PA_sound_system/speaker/s_cilo124_3.png';
+    document.getElementById('img4').style.display = 'none';
+    document.getElementById('features').innerHTML = '<li>High-performance 2-way bi-amplified 325W (RMS) active loudspeaker.</li> <li>Driven by an efficient class D amplifier.</li> <li>Easy DSP sound presets (flat / speech / music / live / club).</li> <li>Integrates a 12” LF and 1” HF to deliver high SPL and a wide dispersion area.</li> <li>USB/SD MP3 player and Bluetooth.</li> <li>True Wireless Stereo (TWS) for Pairing Two Units.</li> <li>Inputs: 1 x Stereo RCA, 1 x XLR-Jack (line) & 1 x switchable XLR-Jack (mic/line).</li> <li>XLR mix out for linking additional speakers. </li><li>Built-in soft clip limiter for speaker protection.</li> <li>Ergonomically-shaped handles for easy transportation.</li> <li>Durable plastic moulded enclosure with a wood grain finish.</li>';
+}
+
+function speaker4(event){
+    event.preventDefault();
+    document.documentElement.classList.add("no-scroll");
+    document.getElementById('product-container').style.display = 'flex';
+    document.getElementById('product-name').innerText = 'S8028';
+    document.getElementById('price').innerText = '₹ 110,000';
+    document.getElementById('main-image').src = './image/PA_sound_system/speaker/s_s8028.png';
+    document.getElementById('img1').style.width = '160px';
+    document.getElementById('img1').src = './image/PA_sound_system/speaker/s_s8028.png';
+    document.getElementById('img2').style.display = 'none';
+    document.getElementById('img3').style.display = 'none';
+    document.getElementById('img4').style.display = 'none';
+    document.getElementById('features').innerHTML = '<li>Professional Loudspeakers series powered by high quality RCF transducers specially designed for high end touring & installation systems.</li> <li>State of art crossover design in the mid-hi-tops to enhance the frequency response. </li><li>Exceptional sound quality, wide frequency bandwidth and dynamic range</li> <li>Dual-Speakon connectors allow linking of additional loudspeakers.</li> <li>High grade & durable cabinet design. </li><li>Ergonomically shaped handles for easy transportation.</li> <li>Heavy Duty perforated steel speaker grille for optimal speaker protection.</li>';
+}
+
+function speaker5(event){
+    event.preventDefault();
+    document.documentElement.classList.add("no-scroll");
+    document.getElementById('product-container').style.display = 'flex';
+    document.getElementById('product-name').innerText = 'S 8218';
+    document.getElementById('price').innerText = '₹ 80,000';
+    document.getElementById('main-image').src = './image/PA_sound_system/speaker/s_s8218.png';
+    document.getElementById('img1').src = './image/PA_sound_system/speaker/s_s8218.png';
+    document.getElementById('img2').style.display = 'none';
+    document.getElementById('img3').style.display = 'none';
+    document.getElementById('img4').style.display = 'none';
+    document.getElementById('features').innerHTML = '<li>loudspeakers featuring high-quality RCFTM transducers specially-designed for high-end touring and installations.</li> <li>Exceptional sound quality with a wide frequency bandwidth and dynamic range.</li> <li>dual Speakon connectors for input connectivity and linking additional loudspeakers.</li> <li>and durable cabinet design with a rugged paint finish built for the road.</li> <li>handles for easy transportation.</li> <li>perforated metal grille for optimal speaker protection.</li>';
+}
+
+function speaker6(event){
+    event.preventDefault();
+    document.documentElement.classList.add("no-scroll");
+    document.getElementById('product-container').style.display = 'flex';
+    document.getElementById('product-name').innerText = 'XVP 2820';
+    document.getElementById('price').innerText = '₹ 50,000';
+    document.getElementById('main-image').src = './image/PA_sound_system/speaker/s_xvp2820.png';
+    document.getElementById('img1').src = './image/PA_sound_system/speaker/s_xvp2820.png';
+    document.getElementById('img2').style.display = 'none';
+    document.getElementById('img3').style.display = 'none';
+    document.getElementById('img4').style.display = 'none';
+    document.getElementById('features').innerHTML = '<li>Professional Budget conscious Loudspeakers systems highly recommended for a variety outdoor& indoor applications.</li> <li>Rugged wooden, black carpet finish enclosures.</li> <li>Ergonomically shaped handles for easy transportation.</li> <li>Parallel input connectors allow linking of additional speakers.</li> <li>Heavy Duty perforated metal speaker grille for optimal speaker protection.</li> <li>Trapezoidal shaped enclosures for the mid-hi tops for easy array and sonic accuracy.</li>';
+}
+
+
+function speaker7(event){
+    event.preventDefault();
+    document.documentElement.classList.add("no-scroll");
+    document.getElementById('product-container').style.display = 'flex';
+    document.getElementById('product-name').innerText = 'SRM 220';
+    document.getElementById('price').innerText = '₹ 10,999';
+    document.getElementById('main-image').src = './image/PA_sound_system/speaker/a_srm220.png';
+    document.getElementById('img1').src = './image/PA_sound_system/speaker/a_srm220.png';
+    document.getElementById('img2').style.display = 'none';
+    document.getElementById('img3').style.display = 'none';
+    document.getElementById('img4').style.display = 'none';
+    document.getElementById('features').innerHTML = '<li>Compact 2-Way Floor Monitor speaker system comprising of a single 38.1cm (15”) Full Range Dual Cone Speaker and a Piezo Horn Tweeter.</li><li> The unique multi functional trapezoidal design of the enclosure for effective floor monitoring in various indoor & outdoor applications.</li><li>The system is housed in an acoustically treated Bass Reflex enclosure made of 18mm board and carpet covered.</li><li> An On/Off switch for the piezo speaker is provided to limit extended HF, if desired. Stand mount adaptor is provided at the bottom.</li>';
+}
+
+function speaker8(event){
+    event.preventDefault();
+    document.documentElement.classList.add("no-scroll");
+    document.getElementById('product-container').style.display = 'flex';
+    document.getElementById('product-name').innerText = 'SRX 120';
+    document.getElementById('price').innerText = '₹ 7,700';
+    document.getElementById('main-image').src = './image/PA_sound_system/speaker/a_srx120.png';
+    document.getElementById('img1').src = './image/PA_sound_system/speaker/a_srx120.png';
+    document.getElementById('img2').style.display = 'none';
+    document.getElementById('img3').style.display = 'none';
+    document.getElementById('img4').style.display = 'none';
+    document.getElementById('features').innerHTML = '<li> Input Power 100W RMS.</li>  <li> Configuration Two Way.</li>  <li> Frequency Response 55-20,000Hz.</li>  <li> Low Frequency Speaker 1 x 304.8 mm (12”), Ø38.1 mm (1.5”) Voice Coil.</li>  <li> High Frequency Unit 1 x Piezo Horn Tweeter 2”×5”.</li>';
+}
+
+function speaker9(event){
+    event.preventDefault();
+    document.documentElement.classList.add("no-scroll");
+    document.getElementById('product-container').style.display = 'flex';
+    document.getElementById('product-name').innerText = 'SRX 200';
+    document.getElementById('price').innerText = '₹ 9,500';
+    document.getElementById('main-image').src = './image/PA_sound_system/speaker/a_srx200.png';
+    document.getElementById('img1').src = './image/PA_sound_system/speaker/a_srx200.png';
+    document.getElementById('img2').style.display = 'none';
+    document.getElementById('img3').style.display = 'none';
+    document.getElementById('img4').style.display = 'none';
+    document.getElementById('features').innerHTML = '<li>Professional 2-Way PA Speaker System to provide superb LF Response, High Efficiency and Long Throw with Excellent Sound Intelligibility.</li><li> It consists of one 30.48 cm (12”) Full Range Dual Cone Speaker and a Piezo Horn Tweeter.</li><li> The system is housed in an acoustically treated Bass Reflex enclosure made of 18mm board, and carpet covered. Stand mount adaptor is provided at the bottom.</li>';
+}
+
+function speaker10(event){
+    event.preventDefault();
+    document.documentElement.classList.add("no-scroll");
+    document.getElementById('product-container').style.display = 'flex';
+    document.getElementById('product-name').innerText = 'SRX 220';
+    document.getElementById('price').innerText = '₹ 10,999';
+    document.getElementById('main-image').src = './image/PA_sound_system/speaker/a_srx220.png';
+    document.getElementById('img1').src = './image/PA_sound_system/speaker/a_srx220.png';
+    document.getElementById('img2').style.display = 'none';
+    document.getElementById('img3').style.display = 'none';
+    document.getElementById('img4').style.display = 'none';
+    document.getElementById('features').innerHTML = '<li>Professional 2-Way speaker system with high efficiency, long throw & clean undistorted sound for both speech & music.</li><li> It consists of one 38.1 cm ( 15 Inch ) Full Range Dual Cone Speaker and a Piezo Horn Tweeter.</li><li> The system is housed in an acoustically treated Bass Reflex Trapezoidal enclosure made of 18mm board, and carpet covered.</li><li> Stand mount adaptor is provided at the bottom.</li>';
+}
+
+function speaker11(event){
+    event.preventDefault();
+    document.documentElement.classList.add("no-scroll");
+    document.getElementById('product-container').style.display = 'flex';
+    document.getElementById('product-name').innerText = 'SRX 440';
+    document.getElementById('price').innerText = '₹ 15,500';
+    document.getElementById('main-image').src = './image/PA_sound_system/speaker/a_srx440.png';
+    document.getElementById('img1').src = './image/PA_sound_system/speaker/a_srx440.png';
+    document.getElementById('img2').style.display = 'none';
+    document.getElementById('img3').style.display = 'none';
+    document.getElementById('img4').style.display = 'none';
+    document.getElementById('features').innerHTML = '<li>New high power, high efficency professional speaker system with well-balanced wide-spectrum sound.</li><li> Consists of two 30.48 cm (12”) Dual Cone Speakers and a Pizeo Horn Tweeter fitted in a rugged bass reflex carpet covered enclosure.</li><li> The cabinet has been fitted with heavy-duty handles to allow ease of transportation and a strong steel grille for speaker protection.</li><li> A stand adapter is provided at the bottom for pole mounting.</li><li> Ideal for DJ’s variety music programmes and general PA applications.</li><li> Rated at 400 Watts RMS.</li>';
+}
+
+function speaker12(event){
+    event.preventDefault();
+    document.documentElement.classList.add("no-scroll");
+    document.getElementById('product-container').style.display = 'flex';
+    document.getElementById('product-name').innerText = 'SRX 510';
+    document.getElementById('price').innerText = '₹ 24,999';
+    document.getElementById('main-image').src = './image/PA_sound_system/speaker/a_srx510.png';
+    document.getElementById('img1').src = './image/PA_sound_system/speaker/a_srx510.png';
+    document.getElementById('img2').style.display = 'none';
+    document.getElementById('img3').style.display = 'none';
+    document.getElementById('img4').style.display = 'none';
+    document.getElementById('features').innerHTML = '<li>Professional 2-way speaker system with exceptional efficiency, long throw and unmatched intelligibility of sound.</li><li> It consists of two 38.1cm ( 15 Inch ) high performance full range dual cone speakers and a High frequency compression driver.</li><li> The speaker system is housed in an acoustically treated Bass Reflex Trapezoidal with durable paint finish enclosure.</li><li> The cabinet has been fitted with heavy-duty handles to allow ease of transportation and a strong steel grille for speaker protection.</li><li>Ideal for both indoor and outdoor sound reinforcement applications.</li><li> Specially designed for Auditoriums and DJs.</li>';
 }
